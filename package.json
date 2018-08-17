@@ -1,0 +1,46 @@
+{
+  "name": "listwrap",
+  "version": "1.0.0",
+  "description": "Wraps any list-like object with an interface containing a full set of superpowered, chainable list methods, including toggle, replace, etc.",
+  "keywords": [
+    "list",
+    "values",
+    "add",
+    "remove",
+    "if",
+    "toggle",
+    "replace",
+    "facade",
+    "wrapper",
+    "interface"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "repository": "lamansky/listwrap",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "extend-prototype": "^1.0.0",
+    "private-parts": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0",
+    "vdel": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
