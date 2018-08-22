@@ -1,4 +1,4 @@
-# listwrap
+# Listwrap
 
 Wraps any list-like object with an interface containing a full set of superpowered, chainable list methods, including toggle, replace, etc.
 
@@ -71,6 +71,6 @@ In the function definitions below, the `...items` parameter is a [rest parameter
   * `condition`: A boolean that determines whether or not the items should be present.
   * `thenItems`: A value or an array of values.
   * `elseItems`: A value or an array of values.
-  * If `condition` is `true`, removes `elseItems` and adds `thenItems`. Otherwise removes `themItems` and adds `elseItems`.
+  * If `condition` is `true`, removes `elseItems` and adds `thenItems`. Otherwise removes `thenItems` and adds `elseItems`.
 * **item (index)**
 * **length**
